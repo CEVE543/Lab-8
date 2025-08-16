@@ -1,8 +1,8 @@
 ---
-title: "Lab 1"
-subtitle: "Julia Setup & Hello World"
+title: "Lab 8"
+subtitle: "Bias Correction Implementation"
 author: CEVE 543 Fall 2025
-date: "2025-08-29"
+date: "2025-10-31"
 
 engine: julia
 
