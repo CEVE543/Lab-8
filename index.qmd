@@ -1,8 +1,16 @@
 ---
-title: "Lab 8"
-subtitle: "GCM Data Analysis and Bias Assessment"
+title: "Lab 8: Bayesian Calibration"
+subtitle: "Turing.jl inference setup, Prior specification for hydro parameters, MCMC sampling and diagnostics"
 author: CEVE 543 Fall 2025
 date: "2025-10-22"
+type: "lab"
+module: 2
+week: 8
+objectives:
+  - "Set up Bayesian inference for hydrological model parameters"
+  - "Specify appropriate priors for hydrological parameters"
+  - "Run MCMC sampling and perform convergence diagnostics"
+ps_connection: "Provides Bayesian calibration toolkit for PS2 Task 2"
 
 engine: julia
 
@@ -12,7 +20,7 @@ format:
     toc-depth: 2
     code-block-bg: "#f8f8f8"
     code-block-border-left: "#e1e4e5"
-    theme: default
+    theme: cosmo
     number-sections: true
     fig-format: svg
   typst:
@@ -35,7 +43,7 @@ code-block-font-size: "0.85em"
 
 ## Topics
 
-- Downloading GCM data
-- Statistical bias comparison
-- Forcing hydro model with raw GCM
+- Turing.jl inference setup
+- Prior specification for hydro parameters
+- MCMC sampling and diagnostics
 
