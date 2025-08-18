@@ -1,8 +1,8 @@
 ---
 title: "Lab 8"
-subtitle: "Bias Correction Implementation"
+subtitle: "GCM Data Analysis and Bias Assessment"
 author: CEVE 543 Fall 2025
-date: "2025-10-31"
+date: "2025-10-22"
 
 engine: julia
 
@@ -32,4 +32,10 @@ code-overflow: wrap
 code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
+
+## Topics
+
+- Downloading GCM data
+- Statistical bias comparison
+- Forcing hydro model with raw GCM
 
