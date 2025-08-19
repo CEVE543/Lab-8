@@ -2,15 +2,15 @@
 title: "Lab 8: Bayesian Calibration"
 subtitle: "Turing.jl inference setup, Prior specification for hydro parameters, MCMC sampling and diagnostics"
 author: CEVE 543 Fall 2025
-date: "2025-10-22"
+date: "2025-10-24"
 type: "lab"
 module: 2
-week: 8
+week: 10
 objectives:
   - "Set up Bayesian inference for hydrological model parameters"
   - "Specify appropriate priors for hydrological parameters"
   - "Run MCMC sampling and perform convergence diagnostics"
-ps_connection: "Provides Bayesian calibration toolkit for PS2 Task 2"
+ps_connection: "Provides Bayesian calibration toolkit for PS2 Task 2 (calibrating model using MCMC and validating against observations)"
 
 engine: julia
 

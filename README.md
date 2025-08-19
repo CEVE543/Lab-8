@@ -1,6 +1,6 @@
 # Lab 8: Bayesian Calibration
 
-**Date:** October 22, 2025 | **Module:** 2 | **Week:** 8
+**Date:** October 24, 2025 | **Module:** 2 | **Week:** 10
 
 ## Overview
 
@@ -23,7 +23,7 @@ This lab introduces Bayesian parameter estimation for hydrological models. Stude
 
 ## Connection to Problem Sets
 
-This lab provides the Bayesian calibration toolkit that students will use for PS2 Task 2, enabling rigorous parameter estimation and uncertainty quantification for hydrological models.
+This lab provides the Bayesian calibration toolkit that students will use for PS2 Task 2 (calibrating model using MCMC and validating against observations), enabling rigorous parameter estimation and uncertainty quantification for hydrological models.
 
 ---
 
