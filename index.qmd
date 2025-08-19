@@ -41,9 +41,32 @@ code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
 
-## Topics
+## Objectives
 
-- Turing.jl inference setup
-- Prior specification for hydro parameters
-- MCMC sampling and diagnostics
+1. Set up Bayesian inference for hydrological model parameters
+1. Specify appropriate priors for hydrological parameters
+1. Run MCMC sampling and perform convergence diagnostics
+
+## Before
+
+::: {.callout-important}
+## Instructions
+
+Do this before the lab date so that lab itself can go more smoothly.
+:::
+
+## Background and Reading
+
+<!-- Content will be added here -->
+
+## Tasks
+
+Modify the code section below to address the following tasks.
+
+1. Set up Bayesian inference framework for hydrological model parameters
+1. Specify appropriate prior distributions for hydrological parameters
+1. Run MCMC sampling chains and perform convergence diagnostics
+1. Analyze posterior parameter distributions and assess calibration quality
+
+## Code
 
