@@ -1,5 +1,5 @@
 ---
-title: "Lab 8: Bayesian Calibration"
+title: "CEVE 543 Fall 2025 Lab 8: Bayesian Calibration"
 subtitle: "Turing.jl inference setup, Prior specification for hydro parameters, MCMC sampling and diagnostics"
 author: CEVE 543 Fall 2025
 date: "2025-10-24"
