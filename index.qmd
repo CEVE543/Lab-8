@@ -1,16 +1,18 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 8: Bayesian Calibration"
-subtitle: "Turing.jl inference setup, Prior specification for hydro parameters, MCMC sampling and diagnostics"
+title: "CEVE 543 Fall 2025 Lab 8: Quantile Mapping Implementation"
+subtitle: "Empirical and parametric quantile mapping, bias correction validation, correlation preservation challenges"
 author: CEVE 543 Fall 2025
-date: "2025-10-24"
+date: "2025-10-31"
 type: "lab"
 module: 2
-week: 10
+week: 11
 objectives:
-  - "Set up Bayesian inference for hydrological model parameters"
-  - "Specify appropriate priors for hydrological parameters"
-  - "Run MCMC sampling and perform convergence diagnostics"
-ps_connection: "Provides Bayesian calibration toolkit for PS2 Task 2 (calibrating model using MCMC and validating against observations)"
+  - "Implement empirical and parametric quantile mapping"
+  - "Apply bias correction to temperature and precipitation"
+  - "Validate bias correction methods statistically"
+  - "Understand correlation preservation challenges"
+  - "Force hydrological models with bias-corrected climate data"
+ps_connection: "Builds quantile mapping tools for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections)"
 
 engine: julia
 
@@ -43,9 +45,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Set up Bayesian inference for hydrological model parameters
-1. Specify appropriate priors for hydrological parameters
-1. Run MCMC sampling and perform convergence diagnostics
+1. Implement empirical and parametric quantile mapping
+1. Apply bias correction to temperature and precipitation for hydrological modeling
+1. Validate bias correction methods statistically
+1. Understand correlation preservation challenges
 
 ## Before
 
@@ -63,10 +66,10 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Set up Bayesian inference framework for hydrological model parameters
-1. Specify appropriate prior distributions for hydrological parameters
-1. Run MCMC sampling chains and perform convergence diagnostics
-1. Analyze posterior parameter distributions and assess calibration quality
+1. Implement both empirical and parametric quantile mapping approaches
+1. Apply bias correction to temperature and precipitation data
+1. Validate bias correction methods using statistical assessments
+1. Force hydrological models with bias-corrected climate data and assess performance
 
 ## Code
 

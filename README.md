@@ -1,29 +1,30 @@
-# Lab 8: Bayesian Calibration
+# Lab 9: Quantile Mapping Implementation
 
-**Date:** October 24, 2025 | **Module:** 2 | **Week:** 10
+**Date:** October 31, 2025 | **Module:** 2 | **Week:** 11
 
 ## Overview
 
-This lab introduces Bayesian parameter estimation for hydrological models. Students will learn to set up Bayesian inference problems using Turing.jl, specify appropriate priors for hydrological parameters, and run MCMC sampling with proper convergence diagnostics.
+This lab introduces students to implementing quantile mapping algorithms for climate data bias correction. Students will learn both empirical and parametric approaches to quantile mapping, validate their implementations, and understand the challenges of preserving correlations between climate variables.
 
 ## Topics Covered
 
-- Turing.jl inference setup for hydrological models
-- Prior specification strategies for hydro parameters
-- MCMC sampling techniques and implementation
-- Convergence diagnostics and chain analysis
-- Posterior predictive checking for model validation
+- Empirical and parametric quantile mapping implementation
+- Bias correction validation and statistical assessment  
+- Correlation preservation challenges in multivariate correction
+- Hydrological model forcing with bias-corrected climate data
+- Comparison of different bias correction approaches
 
 ## Objectives
 
-- Set up Bayesian inference for hydrological model parameters
-- Specify appropriate priors for hydrological parameters
-- Run MCMC sampling and perform convergence diagnostics
-- Understand the advantages of Bayesian calibration for uncertainty quantification
+- Implement empirical and parametric quantile mapping
+- Apply bias correction to temperature and precipitation
+- Validate bias correction methods statistically
+- Understand correlation preservation challenges
+- Force hydrological models with bias-corrected climate data
 
 ## Connection to Problem Sets
 
-This lab provides the Bayesian calibration toolkit that students will use for PS2 Task 2 (calibrating model using MCMC and validating against observations), enabling rigorous parameter estimation and uncertainty quantification for hydrological models.
+This lab builds the quantile mapping tools that students will need for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections), providing practical experience with the most common climate downscaling approach.
 
 ---
 
