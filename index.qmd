@@ -1,18 +1,17 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 8: Quantile Mapping Implementation"
-subtitle: "Empirical and parametric quantile mapping, bias correction validation, correlation preservation challenges"
+title: "CEVE 543 Fall 2025 Lab 8: Weather Typing Implementation"
+subtitle: "K-means clustering for synoptic pattern classification"
 author: CEVE 543 Fall 2025
 date: "2025-10-31"
 type: "lab"
 module: 2
 week: 11
 objectives:
-  - "Implement empirical and parametric quantile mapping"
-  - "Apply bias correction to temperature and precipitation"
-  - "Validate bias correction methods statistically"
-  - "Understand correlation preservation challenges"
-  - "Force hydrological models with bias-corrected climate data"
-ps_connection: "Builds quantile mapping tools for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections)"
+  - "Apply k-means clustering to sea level pressure fields"
+  - "Identify and interpret weather regimes"
+  - "Connect weather types to precipitation or temperature extremes"
+  - "Understand appropriate use cases and limitations"
+ps_connection: "Develops weather typing skills for PS2 Part 2 problems"
 
 engine: julia
 
@@ -45,10 +44,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Implement empirical and parametric quantile mapping
-1. Apply bias correction to temperature and precipitation for hydrological modeling
-1. Validate bias correction methods statistically
-1. Understand correlation preservation challenges
+1. Apply k-means clustering to sea level pressure fields
+1. Identify and interpret weather regimes
+1. Connect weather types to precipitation or temperature extremes
+1. Understand appropriate use cases and limitations
 
 ## Before
 
@@ -66,10 +65,18 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Implement both empirical and parametric quantile mapping approaches
-1. Apply bias correction to temperature and precipitation data
-1. Validate bias correction methods using statistical assessments
-1. Force hydrological models with bias-corrected climate data and assess performance
+1. Apply k-means clustering to daily sea level pressure fields
+1. Identify distinct weather regimes and visualize their spatial patterns
+1. Analyze the relationship between weather types and local precipitation/temperature
+1. Evaluate clustering quality and interpret physical meaning of weather states
 
 ## Code
+
+```{julia}
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+# Pkg.instantiate() # uncomment this the first time you run the lab to install packages, then comment it back
+```
 
